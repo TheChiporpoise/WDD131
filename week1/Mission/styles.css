@@ -1,0 +1,39 @@
+body
+{
+    text-align: center;
+
+    margin: 1 auto;
+    border: 1px solid black;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+h1
+{
+    letter-spacing: 4px;
+}
+
+h4
+{
+    color: rgb(62, 98, 205);
+    letter-spacing: 2px;
+}
+
+main
+{
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+ol li
+{
+    padding-top: 20px;
+}
+
+#logo
+{
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
