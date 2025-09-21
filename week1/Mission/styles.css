@@ -2,28 +2,36 @@ body
 {
     text-align: center;
 
-    margin: 1 auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
     border: 1px solid black;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+    max-width: 600px;
+}
+
+main
+{
+    width: 80%;
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
 }
 
 h1
 {
     letter-spacing: 4px;
+    line-height: 0.5;
 }
 
 h4
 {
-    color: rgb(62, 98, 205);
+    color: #006EB6;
     letter-spacing: 2px;
-}
-
-main
-{
-    text-align: left;
-    display: inline-block;
-    margin: 0 auto;
 }
 
 ol li
