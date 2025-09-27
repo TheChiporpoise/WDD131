@@ -45,3 +45,15 @@ ol li
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.dark
+{
+    background-color: #333;
+    color: white;
+
+    border: 1px solid white;
+}
+.dark h4
+{
+    color: #51b1f0;
+}
