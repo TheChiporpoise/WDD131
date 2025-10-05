@@ -1,0 +1,20 @@
+header {
+    background-color: #5549a2;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    color: white;
+}
+
+main {
+    background-color: white;
+}
+
+footer {
+    background-color: #5549a2;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
