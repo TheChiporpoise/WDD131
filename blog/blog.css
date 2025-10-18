@@ -1,0 +1,44 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: Lora, Impact, serif
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    color: #AF1B3F;
+}
+
+hr {
+    color: #EFC69B;
+}
+
+nav > ul {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    color: #473144;
+
+    justify-content: end;
+    justify-items: end;
+}
+
+li a {
+    color: #AF1B3F;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+section {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
