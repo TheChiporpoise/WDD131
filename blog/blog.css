@@ -50,3 +50,12 @@ section {
     display: grid;
     grid-template-columns: 1fr 4fr;
 }
+
+article img {
+    display: block;
+    margin: 0 auto;
+}
+
+aside {
+    border: solid 2px white;
+}
