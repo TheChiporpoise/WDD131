@@ -60,4 +60,4 @@ for (var i = 0; i < articles.length; i++) {
 	articlesHTML += postTemplate(articles[i]);
 }
 
-document.getElementById('posts').innerHTML = articlesHTML;
+document.getElementById('posts').innerHTML = articlesHTML; // add listener later?
