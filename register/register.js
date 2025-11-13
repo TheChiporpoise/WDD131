@@ -10,19 +10,19 @@ document.getElementById('add').addEventListener('click', function() {
             <p>Participant ${participantCount}</p>
             <div class="item">
                   <label for="fname"> First Name<span>*</span></label>
-                  <input id="fname" type="text" name="fname" value="" required />
+                  <input id="fname${participantCount}" type="text" name="fname" value="" required />
             </div>
             <div class="item activities">
                 <label for="activity">Activity #<span>*</span></label>
-                <input id="activity" type="text" name="activity" />
+                <input id="activity${participantCount}" type="text" name="activity" />
             </div>
             <div class="item">
                 <label for="fee">Fee ($)<span>*</span></label>
-                <input id="fee" type="number" name="fee" />
+                <input id="fee${participantCount}" type="number" name="fee" />
             </div>
             <div class="item">
                 <label for="date">Desired Date <span>*</span></label>
-                <input id="date" type="date" name="date" />
+                <input id="date${participantCount}" type="date" name="date" />
             </div>
             <div class="item">
                 <p>Grade</p>
