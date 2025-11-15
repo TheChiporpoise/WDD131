@@ -13,7 +13,7 @@
   <body>
     <div class="testbox">
       <h1>Camp Registration</h1>
-      <form>
+      <form id="form" class="hide">
         <fieldset class="participants">
           <legend>Participant Information</legend>
           <section class="participant1">
@@ -149,7 +149,9 @@
           <button type="submit" id="submitButton">Submit</button>
         </div>
       </form>
-      <section id="summary"></section>
+      <section id="summary" class="hide">
+        <h2>Thank you NAME for registering. You have registered N participants and owe $N in Fees.</h2>
+      </section>
     </div>
   </body>
 </html>

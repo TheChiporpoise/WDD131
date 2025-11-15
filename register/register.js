@@ -45,3 +45,25 @@ document.getElementById('add').addEventListener('click', function() {
         </section>`
     );
 });
+
+// var submitButton = document.getElementById('submit');
+var form = document.getElementById('form');
+form.classList.toggle("hide"); // Show the form initially
+
+var summary = document.getElementById('summary');
+
+function submitForm(event) {
+    event.preventDefault();
+    
+    let cost = 0;
+    for (let i = 1; i <= participantCount; i++) {
+        cost += Number(document.getElementById('fee' + i).value);
+    }
+    let guardianName = document.getElementById('adult_name').value;
+
+    form.classList.toggle("hide");
+    summary.textContent = `Thank you ${guardianName} for registering. You have registered ${participantCount} participants and owe $${cost} in Fees.`;
+    summary.classList.toggle("hide");
+
+}
+form.addEventListener('submit', submitForm);
