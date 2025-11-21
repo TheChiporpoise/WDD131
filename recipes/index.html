@@ -5,8 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipes</title>
 
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="recipes.css">
     <script src="main.js" defer></script>
+
+    <meta property="og:title" content="RecipeBook">
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="A collection of delicious recipes to try at home.">
+    <meta property="og:image" content="https://wdd131.netlify.app/assets/images/recipe-book-mockup-lg.webp">
+    <meta property="og:url" content="URL of the page">
+    <meta name="twitter:card" content="A collection of delicious recipes to try at home.">
 </head>
 <body>
     <header>
@@ -17,28 +26,31 @@
         <form id="search">
             <label for="searchInput"></label>
             <input type="text" id="searchInput" name="searchInput" placeholder="Find a recipe">
-            <button type="submit">Search</button>
+            <button type="submit">&#x1F50D;&#xFE0E;</button>
         </form>
+        <hr>
         <div class="recipe-container">
             <img src="images/chicken-curry.webp" alt="Chicken Curry">
-            <div id="tags" class="tags">
-                <p>Chicken</p>
-                <p>Entree</p>
-                <p>Indian</p>
+            <div class="recipe-info">
+                <div id="tags" class="tags">
+                    <p>Chicken</p>
+                    <p>Entree</p>
+                    <p>Indian</p>
+                </div>
+                <h1 class="">Chicken Curry</h1>
+                <span
+                    class="rating"
+                    role="img"
+                    aria-label="Rating: 4 out of 5 stars"
+                >
+                    <span aria-hidden="true" class="icon-star">⭐</span>
+                    <span aria-hidden="true" class="icon-star">⭐</span>
+                    <span aria-hidden="true" class="icon-star">⭐</span>
+                    <span aria-hidden="true" class="icon-star">⭐</span>
+                    <span aria-hidden="true" class="icon-star">⭐</span>
+                </span>
+                <p id="description">Quick and easy Chicken curry recipe made with easy to find ingredients.</p>
             </div>
-            <h1 class="">Chicken Curry</h1>
-            <span
-                class="rating"
-                role="img"
-                aria-label="Rating: 4 out of 5 stars"
-            >
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-            </span>
-            <p id="description">Quick and easy Chicken curry recipe made with easy to find ingredients.</p>
         </div>
     </main>
     <footer>
@@ -48,7 +60,7 @@
             <a href="#"><img src="images/youtube_icon.svg" alt="youtube icon"></a>
             <a href="#"><img src="images/pinterest_icon.svg" alt="pinterest icon"></a>
         </div>
-        <a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">Recipe icons created by Freepik - Flaticon</a>
+        <a id="dumbfuck" href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">Recipe icons created by Freepik - Flaticon</a>
     </footer>
 </body>
 </html>
